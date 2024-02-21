@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 4.798 sec <<< FAILURE!
+a(combat.Basics)  Time elapsed: 0.533 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at combat.Basics.a(Basics.java:54)
+
+a(combat.Basics)  Time elapsed: 0.4 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at combat.Basics.a(Basics.java:54)
+
+a(combat.Basics)  Time elapsed: 0.21 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at combat.Basics.a(Basics.java:54)
+
