@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+通过xml文件来执行/main/java/jiekou/le01这个测试java类，需要标注suite name/test name/classes name,
+而class name则是执行类的路径-->
+<suite name="test">
+    <test name="ss">
+        <classes name="dd">
+            <class name="combat.Basics"/>
+        </classes>
+    </test>
+
+    <!-- 对类的分组测试。如果le03该类分组不属于groups="类的第一组"，则不执行-->
+    <!--    <test name="ff">
+            <groups >
+                <run>
+                    <include name="类的第一组"/>
+                </run>
+                <classes name="ee">
+                    <class name="jiekou.le03"/>
+                </classes>
+            </groups>
+        </test>-->
+    <listeners>
+        <!--这是配置生成报告的监听-->
+        <listener class-name="config.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
+        <!--快速注释：ctrl+shift+/    取消注释：ctrl+shift+\-->
