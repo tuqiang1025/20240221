@@ -10,7 +10,20 @@
     </parent>
 
     <artifactId>httpclient</artifactId>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>./src/main/resources/suite.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+                <version>2.4</version>
+            </plugin>
+        </plugins>
+    </build>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
