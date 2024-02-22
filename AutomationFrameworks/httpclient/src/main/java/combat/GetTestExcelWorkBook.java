@@ -7,12 +7,13 @@ import java.util.ArrayList;
 
 public class GetTestExcelWorkBook {
     private static  String fileName;
+    private static String fileFgf= File.separator;/*自适应当前系统的文件分隔符*/
 
     public static ArrayList<String> getExcelFile() {
         //获取当前项目的路径
         String projectPath = System.getProperty("user.dir");
         //拼接测试excel路径（这样文件对象获取文件路径时才是相对文件）
-        String excelTestPath = projectPath + "\\src\\main\\java\\testdata";
+        String excelTestPath = projectPath + fileFgf+"src"+fileFgf+"main"+fileFgf+"java"+fileFgf+"testdata";
         //创建文件对象,得到文件清单集合
         File file = new File(excelTestPath);
         ArrayList<String> arrayList = getStrings(file, excelTestPath);
@@ -29,7 +30,7 @@ public class GetTestExcelWorkBook {
             //通过循环筛选出.xls后缀的文件
             if (files[i].isFile() && fileName.endsWith(".xls")) {
                 //把拼接后的文件路径+文件名给list集合
-                arrayList.add(excelTestPath + "\\" + fileName);
+                arrayList.add(excelTestPath + fileFgf + fileName);
             }
         }
         return arrayList;

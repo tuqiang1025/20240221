@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-21T23:34:38 CST" name="test" finished-at="2024-02-21T23:34:42 CST" duration-ms="4027">
+  <suite started-at="2024-02-22T16:51:10 CST" name="test" finished-at="2024-02-22T16:51:14 CST" duration-ms="4328">
     <groups>
     </groups>
-    <test started-at="2024-02-21T23:34:38 CST" name="ss" finished-at="2024-02-21T23:34:42 CST" duration-ms="4027">
+    <test started-at="2024-02-22T16:51:10 CST" name="ss" finished-at="2024-02-22T16:51:14 CST" duration-ms="4328">
       <class name="combat.Basics">
-        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-21T23:34:38 CST" name="a" data-provider="a" finished-at="2024-02-21T23:34:39 CST" duration-ms="1112" status="PASS">
+        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-22T16:51:10 CST" name="a" data-provider="a" finished-at="2024-02-22T16:51:12 CST" duration-ms="1430" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,116 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a -->
-        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-21T23:34:39 CST" name="a" data-provider="a" finished-at="2024-02-21T23:34:40 CST" duration-ms="529" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[涂强]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[测试首页正确返回]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[http://192.168.1.11:1080/WebTours/]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[update tu_httptest set age=2 where id=4]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[get]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[200]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[撒大声地所多]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at combat.Basics.a(Basics.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:334)
-at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:980)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a -->
-        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-21T23:34:40 CST" name="a" data-provider="a" finished-at="2024-02-21T23:34:40 CST" duration-ms="253" status="PASS">
+        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-22T16:51:12 CST" name="a" data-provider="a" finished-at="2024-02-22T16:51:13 CST" duration-ms="929" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -238,7 +129,7 @@ at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:980)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a -->
-        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-21T23:34:40 CST" name="a" data-provider="a" finished-at="2024-02-21T23:34:41 CST" duration-ms="431" status="PASS">
+        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-22T16:51:13 CST" name="a" data-provider="a" finished-at="2024-02-22T16:51:13 CST" duration-ms="269" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -299,116 +190,7 @@ at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:980)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a -->
-        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-21T23:34:41 CST" name="a" data-provider="a" finished-at="2024-02-21T23:34:41 CST" duration-ms="400" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[涂强]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[测试首页正确返回]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[http://192.168.1.11:1080/WebTours/]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[update tu_httptest set age=2 where id=4]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[get]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[200]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[撒大声地所多]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at combat.Basics.a(Basics.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:334)
-at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:980)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a -->
-        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-21T23:34:41 CST" name="a" data-provider="a" finished-at="2024-02-21T23:34:41 CST" duration-ms="211" status="PASS">
+        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-22T16:51:13 CST" name="a" data-provider="a" finished-at="2024-02-22T16:51:13 CST" duration-ms="194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -469,7 +251,7 @@ at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:980)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a -->
-        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-21T23:34:41 CST" name="a" data-provider="a" finished-at="2024-02-21T23:34:41 CST" duration-ms="196" status="PASS">
+        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-22T16:51:13 CST" name="a" data-provider="a" finished-at="2024-02-22T16:51:14 CST" duration-ms="779" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -530,116 +312,7 @@ at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:980)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a -->
-        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-21T23:34:41 CST" name="a" data-provider="a" finished-at="2024-02-21T23:34:42 CST" duration-ms="210" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[涂强]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[测试首页正确返回]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[http://192.168.1.11:1080/WebTours/]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[update tu_httptest set age=2 where id=4]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[get]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[200]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[撒大声地所多]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at combat.Basics.a(Basics.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:334)
-at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:980)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a -->
-        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-21T23:34:42 CST" name="a" data-provider="a" finished-at="2024-02-21T23:34:42 CST" duration-ms="303" status="PASS">
+        <test-method signature="a(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-22T16:51:14 CST" name="a" data-provider="a" finished-at="2024-02-22T16:51:14 CST" duration-ms="459" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -700,7 +373,7 @@ at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:980)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a -->
-        <test-method is-config="true" signature="b()[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-21T23:34:42 CST" name="b" finished-at="2024-02-21T23:34:42 CST" duration-ms="40" status="PASS">
+        <test-method is-config="true" signature="b()[pri:0, instance:combat.Basics@4d339552]" started-at="2024-02-22T16:51:14 CST" name="b" finished-at="2024-02-22T16:51:14 CST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- b -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="3" name="TestSuite" time="4.795" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="TestSuite" time="5.357" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
@@ -64,37 +64,10 @@
     <property name="sun.stdout.encoding" value="ms936"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="a" time="1.113"/>
-  <testcase name="a" time="0.53">
-    <failure message="The following asserts failed:
-	(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
-	(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at combat.Basics.a(Basics.java:54)
-</failure>
-  </testcase>
-  <testcase name="a" time="0.253"/>
-  <testcase name="a" time="0.431"/>
-  <testcase name="a" time="0.399">
-    <failure message="The following asserts failed:
-	(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
-	(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at combat.Basics.a(Basics.java:54)
-</failure>
-  </testcase>
-  <testcase name="a" time="0.211"/>
-  <testcase name="a" time="0.197"/>
-  <testcase name="a" time="0.21">
-    <failure message="The following asserts failed:
-	(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
-	(测试员：涂强)-(用例编号：2)-(用例名称：测试首页正确返回)-和预期结果不一致 expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at combat.Basics.a(Basics.java:54)
-</failure>
-  </testcase>
-  <testcase name="a" time="0.303"/>
+  <testcase name="a" time="1.431"/>
+  <testcase name="a" time="0.929"/>
+  <testcase name="a" time="0.27"/>
+  <testcase name="a" time="0.194"/>
+  <testcase name="a" time="0.778"/>
+  <testcase name="a" time="0.459"/>
 </testsuite>
